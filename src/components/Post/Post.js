@@ -1,10 +1,15 @@
 import "./Post.css"
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Users } from "../../dummyData";
+import { useState } from "react";
 
 export default function Post({post}) {
     console.log(post);
-
+    const [like,setLike]= useState(post.like);
+    const [isLiked ,setIsLiked]= useState(false);
+    const likeHandler =() =>{
+      setLike(isLiked ? like-1 :like+1 )
+    }
   return (
     <div className="post">
       <div className="postWrapper">
@@ -26,7 +31,7 @@ export default function Post({post}) {
         </div>
         <div className="postBottom"> 
           <div className="postBottomLeft">
-            <img className="likeIcon" src="assets/like.png" alt="" />
+            <img className="likeIcon" src="assets/like.png" onClick={likeHandler} alt="" />
             {/* <img className="likeIcon" src="assets/heart.png" alt="" /> */}
             <span className="postLikeCounter">{post.like} likes it</span>
           </div>
