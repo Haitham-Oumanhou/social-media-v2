@@ -45,30 +45,6 @@ export default function Sidebar() {
             <img className="SidebarFriendImg" src="/assets/person/1.png" alt=""/>
             <span className="sidebarFriendName">Bocchi san</span>
           </li>
-          <li className="SidebarFriend">
-            <img className="SidebarFriendImg" src="/assets/person/2.png" alt=""/>
-            <span className="sidebarFriendName">Anxious Bocchi san</span>
-          </li>
-          <li className="SidebarFriend">
-            <img className="SidebarFriendImg" src="/assets/person/3.png" alt=""/>
-            <span className="sidebarFriendName">Huh san</span>
-          </li>
-          <li className="SidebarFriend">
-            <img className="SidebarFriendImg" src="/assets/person/4.png" alt=""/>
-            <span className="sidebarFriendName">kita san</span>
-          </li>
-          <li className="SidebarFriend">
-            <img className="SidebarFriendImg" src="/assets/person/5.png" alt=""/>
-            <span className="sidebarFriendName">Cool Bocchi san</span>
-          </li>
-          <li className="SidebarFriend">
-            <img className="SidebarFriendImg" src="/assets/person/6.png" alt=""/>
-            <span className="sidebarFriendName">My waife</span>
-          </li>
-          <li className="SidebarFriend">
-            <img className="SidebarFriendImg" src="/assets/person/7.png" alt=""/>
-            <span className="sidebarFriendName">My wife 2</span>
-          </li>
         </ul>
       </div>
     </div>

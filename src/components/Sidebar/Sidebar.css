@@ -2,19 +2,12 @@
     flex : 3;
     height: calc(100vh - 50px);
     overflow-y: scroll;
-    overflow-x: scroll;
+    position: sticky;
+    top: 60px;
 }
-.scroller {
-    width: 300px;
-    height: 100px;
-    overflow-y: scroll;
-    scrollbar-color: rebeccapurple green;
-  }
-  
+
 ::-webkit-scrollbar {
     width: 5px;
-    scrollbar-color: rgb(226, 121, 0);
-    scrollbar-width: auto;
 }
 ::-webkit-scrollbar-track {
     background-color: #4b4b4b;
